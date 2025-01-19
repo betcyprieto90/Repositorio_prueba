@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Países y Capitales</title> 
+        <style> 
+        body { 
+            background-image: url('andrew-stutesman-l68Z6eF2peA-unsplash.jpg'); 
+            background-size: cover;
+            background-position: center;
+            margin: 1;
+            font-family: Arial, sans-serif;
+        }
+        table { 
+            width: 80%; 
+            margin: 20px auto; 
+            border-collapse: collapse; 
+        } 
+        th, td { 
+            border: 1px solid #ddd;
+            background-color: rgba(191, 207, 222, 0.456);
+            padding: 8px; 
+            text-align: left; 
+        } 
+        th
+        { 
+            background-color: #094e69; 
+            color: white; 
+        } 
+        tr:nth-child(even) { 
+            background-color: #d5d8d9; 
+        }
+        tr:nth-child(odd) { 
+            background-color: #e9f0f2; 
+        }
+        h1 
+        {
+            text-align: Left; /* Centra el texto del título */
+            color: rgb(247, 247, 250);
+            padding: 20px;
+            font-weight: bold;
+        }
+        p
+        {
+            text-align: left;
+        }
+        </style>
+    </head>
+    <body> 
+        <h1>Países y Capitales</h1> 
+        <table> 
+            <tr> 
+                <th>País</th> 
+                <th>Capital</th> 
+            </tr> 
+            <tr> 
+                <td>Argentina</td> 
+                <td>Buenos Aires</td> 
+            </tr>
+            <tr> 
+                <td>Brasil</td> 
+                <td>Brasilia</td> 
+            </tr>
+            <tr> 
+                <td>Chile</td> 
+                <td>Santiago</td> 
+            </tr> 
+            <tr> 
+                <td>México</td> 
+                <td>México D.F.</td> 
+            </tr>
+            <tr> 
+                <td>Colombia</td> 
+                <td>Bogotá</td> 
+            </tr> 
+        </table> 
+        <p>
+            <a href="https://www.infolaso.com/paises-ycapitales-del-mundo-por-continentes.html"> <strong>Ver el listado completo de capitales del mundo</strong></a></p> 
+    </body>
+</html>
